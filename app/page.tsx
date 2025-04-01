@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import { Footer, Header } from "./_components";
+import Timer from "@/components/timer";
 
 export const metadata: Metadata = {
   title: "LensFocus - Persistence beats talent",
@@ -36,7 +37,7 @@ export default function Home() {
           </h2>
 
           {/* Time */}
-          <span className="text-9xl font-kanit">25:34</span>
+          <Timer />
         </div>
 
         {/* Footer */}
