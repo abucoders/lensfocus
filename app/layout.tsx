@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: "Focus Session | LensFocus",
   description:
     "Product by ABUcoder Team. Maximize your focus and efficiency with LensFocus. Work smarter, achieve more.",
+  icons: "/favicon.svg",
 };
 
 export default function RootLayout({
@@ -30,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${kanit.variable} antialiased`}
       >
