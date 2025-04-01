@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: "Focus Session | LensFocus",
   description:
     "Product by ABUcoder Team. Maximize your focus and efficiency with LensFocus. Work smarter, achieve more.",
+  icons: "/favicon.svg",
 };
 
 export default function RootLayout({

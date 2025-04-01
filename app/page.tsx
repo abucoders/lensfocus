@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
-import { Footer, Header } from "./components";
+import { Footer, Header } from "./_components";
 
 export const metadata: Metadata = {
   title: "LensFocus - Persistence beats talent",
